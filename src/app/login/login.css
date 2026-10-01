@@ -1,0 +1,87 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f2f5;
+}
+
+.auth-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1.8rem;
+}
+
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.4rem;
+  color: #555;
+  font-weight: 500;
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 0.85rem;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: opacity 0.2s;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.error {
+  color: #e53e3e;
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.redirect-text {
+  text-align: center;
+  margin-top: 1.2rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.link {
+  color: #667eea;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: underline;
+}
