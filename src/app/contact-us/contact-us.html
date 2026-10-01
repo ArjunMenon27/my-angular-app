@@ -1,0 +1,11 @@
+<div class="contact-card">
+    <img [src]="image" [alt]="name" class="profile-photo">
+
+    <section class="details">
+        <h2>{{ name }}</h2>
+        <h4>{{ designation }}</h4>
+        <p>{{ description }}</p>
+    </section>
+
+    <button class="green-btn" [disabled]="isButtonDisabled">Contact</button>
+</div>
