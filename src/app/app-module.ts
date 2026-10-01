@@ -8,16 +8,14 @@ import { Home } from './home/home';
 import { Login } from './login/login';
 import { Register } from './register/register';
 import { Help } from './help/help';
-import { ContactUS } from './contact-us/contact-us';
-
+ 
 @NgModule({
   declarations: [
     App,
     Home,
     Login,
     Register,
-    Help,
-    ContactUS
+    Help
   ],
   imports: [
     BrowserModule,
