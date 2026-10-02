@@ -9,6 +9,7 @@ import { Login } from './login/login';
 import { Register } from './register/register';
 import { Help } from './help/help';
 import { ContactUS } from './contact-us/contact-us';
+import { TestPipe } from './test-pipe';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ContactUS } from './contact-us/contact-us';
     Login,
     Register,
     Help,
-    ContactUS
+    ContactUS,
+    TestPipe
   ],
   imports: [
     BrowserModule,

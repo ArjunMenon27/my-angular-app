@@ -1,11 +1,17 @@
-<p [class]="isactive?'active':'inactive'">home works!</p>
+<p [class.active]="isactive">home works!</p>
 
-{{counter  }}
+{{counter}}
 
 <button type="button" (click)="increment()">Increment</button>
 <button type="button" (click)="decrement()">Decrement</button>
 
 
+<input type="text" [(ngModel)]="value">
+<button type="button" (click)="primeverifier()">Check Prime</button>
+<p>{{result | uppercase}}</p>
+
+
+<h1>{{email | test}}</h1>
 
 <ul>
     <li><a routerLink="/login">Login</a></li>

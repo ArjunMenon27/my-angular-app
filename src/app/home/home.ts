@@ -39,3 +39,7 @@ primeverifier() {
 
 }
 
+email='arjunmenon1992@gmail.com';
+person = {name: 'John', age: 30, gender: 'm'};
+
+}
