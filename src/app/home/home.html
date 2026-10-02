@@ -1,4 +1,12 @@
-<p>home works!</p>
+<p [class]="isactive?'active':'inactive'">home works!</p>
+
+{{counter  }}
+
+<button type="button" (click)="increment()">Increment</button>
+<button type="button" (click)="decrement()">Decrement</button>
+
+
+
 <ul>
     <li><a routerLink="/login">Login</a></li>
     <li><a routerLink="/register">Register</a></li>
