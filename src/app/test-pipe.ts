@@ -6,10 +6,11 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class TestPipe implements PipeTransform {
 
-  transform(value: string): string {
+  transform(value: any): string {
     const name = value.split('@')[0];
-    const domain = value.split('@')[1];
-    return `${name.substring(0, 3)}****@${domain}`;
+  const domain = value.split('@')[1];    
+  return `${name.substring(0, 3)}****@${domain}`;
+
   }
 
 }
